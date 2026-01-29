@@ -1,5 +1,5 @@
 # our base image
-FROM alpine:latest
+FROM alpine:3.23.3
 COPY repositories.txt /etc/apk/repositories
 
 # Install python and pip
